@@ -1,0 +1,15 @@
+2024-09-03T01:38:04.886Z [32minfo[39m: connected to DB
+2024-09-03T01:38:04.889Z [32minfo[39m: server is running on port 8080
+2024-09-03T01:38:26.267Z [32minfo[39m: HTTP POST /api/v1/register
+2024-09-03T01:38:26.781Z [31merror[39m: Unhandled Error Register Service: (0 , verifyMail_1.verifyEmail) is not a function
+2024-09-03T01:38:26.782Z [31merror[39m: Unhandled Error: (0 , verifyMail_1.verifyEmail) is not a function
+2024-09-03T01:40:51.327Z [32minfo[39m: connected to DB
+2024-09-03T01:40:51.331Z [32minfo[39m: server is running on port 8080
+2024-09-03T01:40:53.323Z [32minfo[39m: HTTP POST /api/v1/register
+2024-09-03T01:41:15.011Z [32minfo[39m: HTTP GET /verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE3MjUzMjc2NTMsImV4cCI6MTcyNTMzMTI1M30.jXgO23guTuRdQMbo8muNaBDO_sL4B-1VJrrwBjKVckk
+2024-09-03T01:46:23.264Z [32minfo[39m: connected to DB
+2024-09-03T01:46:23.268Z [32minfo[39m: server is running on port 8080
+2024-09-03T01:46:25.787Z [32minfo[39m: HTTP POST /api/v1/register
+2024-09-03T01:47:11.051Z [32minfo[39m: connected to DB
+2024-09-03T01:47:11.055Z [32minfo[39m: server is running on port 8080
+2024-09-03T01:47:23.450Z [32minfo[39m: HTTP POST /api/v1/register
