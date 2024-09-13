@@ -9,10 +9,10 @@ export const app = express()
 
 
 //middlewares
-//app.use(cors())
+app.use(cors())
 app.use(express.json())
-//app.use(passport.initialize())
-//passportAuth()
+app.use(passport.initialize())
+passportAuth()
 app.use((req, res, next) => {
     logger.info(`HTTP ${req.method} ${req.url}`);
     next();
@@ -22,12 +22,12 @@ app.use((req, res, next) => {
 
 // Routes
 import registerRouter from './Authentication/api/routes/registerRoute'
-//const loginRouter = require("./src/routes/auth/loginRoute.js")
-//const verifyMailrouter = require("./src/routes/auth/verifyMail.js")
-//const oAuthrouter = require("./src/routes/auth/oauthRoute.js")
-//const oauthCallbackrouter = require("./src/routes/auth/oauthCallback.js")
-//const forgotPasswordrouter = require("./src/routes/auth/forgotPasswordRoute.js")
-//const resetPasswordrouter = require("./src/routes/auth/resetPasswordRoute.js")
+const loginRouter = require("./src/routes/auth/loginRoute.js")
+const verifyMailrouter = require("./src/routes/auth/verifyMail.js")
+const oAuthrouter = require("./src/routes/auth/oauthRoute.js")
+const oauthCallbackrouter = require("./src/routes/auth/oauthCallback.js")
+const forgotPasswordrouter = require("./src/routes/auth/forgotPasswordRoute.js")
+const resetPasswordrouter = require("./src/routes/auth/resetPasswordRoute.js")
 
 
 
@@ -35,12 +35,12 @@ import registerRouter from './Authentication/api/routes/registerRoute'
 
 // route handlers
 app.use('/api/v1/register', registerRouter)
-// app.use('/api/v1/login', loginRouter)
-// app.use('/verify', verifyMailrouter)
-// app.use('/api/v1/auth/google', oAuthrouter)
-// app.use('/api/v1/auth/google/callback', oauthCallbackrouter)
-// app.use('/api/v1/forgot-password', forgotPasswordrouter)
-// app.use('/api/v1/reset-password', resetPasswordrouter)
+ app.use('/api/v1/login', loginRouter)
+ app.use('/verify', verifyMailrouter)
+ app.use('/api/v1/auth/google', oAuthrouter)
+ app.use('/api/v1/auth/google/callback', oauthCallbackrouter)
+ app.use('/api/v1/forgot-password', forgotPasswordrouter)
+ app.use('/api/v1/reset-password', resetPasswordrouter)
 
 
 
