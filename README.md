@@ -112,5 +112,3 @@ Feel free to fork this project and submit pull requests. Any contributions are w
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-This README provides installation instructions, project structure, endpoints, and a description of the custom error handling and logging features. You can adapt it further based on your needs.
