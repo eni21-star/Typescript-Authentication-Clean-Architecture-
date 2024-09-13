@@ -18,7 +18,7 @@ This is an Express.js application that handles user authentication, including re
 
 ## Project Structure
 
-```
+```bash
 ├── src
 │   ├── routes
 │   │   ├── auth
@@ -38,7 +38,7 @@ This is an Express.js application that handles user authentication, including re
 │   └── errors.js
 ├── app.ts
 └── README.md
-```
+
 
 ## Installation
 
